@@ -1,10 +1,8 @@
-# ============================================
-#       STUDENT GRADE CALCULATOR
-#       BCA Mini Project
-# ============================================
+
 
 print("=" * 50)
 print("          STUDENT GRADE CALCULATOR")
+print("=" * 50)
 print("=" * 50)
 
 name = input("Enter Student Name: ")
@@ -42,6 +40,7 @@ else:
 
 print("\n" + "=" * 50)
 print("              STUDENT RESULT")
+print("=" * 50)
 print("=" * 50)
 
 print("Student Name   :", name)
