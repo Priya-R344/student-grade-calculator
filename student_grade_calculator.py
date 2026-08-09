@@ -1,8 +1,5 @@
-
-
 print("=" * 50)
 print("          STUDENT GRADE CALCULATOR")
-print("=" * 50)
 print("=" * 50)
 
 name = input("Enter Student Name: ")
@@ -32,33 +29,14 @@ elif percentage >= 50:
 else:
     grade = "F"
 
-if (python >= 35 and dbms >= 35 and java >= 35
-        and computer_network >= 35 and data_structure >= 35):
-    result = "PASS"
-else:
-    result = "FAIL"
-
 print("\n" + "=" * 50)
-print("              STUDENT RESULT")
+print("                  RESULT")
 print("=" * 50)
-print("=" * 50)
 
-print("Student Name   :", name)
-print("Register No.   :", register_no)
-print("-" * 50)
+print("Student Name    :", name)
+print("Register Number :", register_no)
+print("Total Marks     :", total, "/ 500")
+print("Percentage      :", percentage, "%")
+print("Grade           :", grade)
 
-print("Python         :", python)
-print("DBMS           :", dbms)
-print("Java           :", java)
-print("Computer Net.  :", computer_network)
-print("Data Structure :", data_structure)
-
-print("-" * 50)
-print("Total Marks    :", total, "/ 500")
-print("Percentage     :", round(percentage, 2), "%")
-print("Grade          :", grade)
-print("Result         :", result)
-
-print("=" * 50)
-print("        Thank You!")
 print("=" * 50)
